@@ -1,0 +1,47 @@
+body {
+  background: black;
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: #fbfbfb;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+/* .bg {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+} */
+/* 
+.container {
+  background: #fff;
+  margin: auto;
+  height: auto;
+  width: 900px;
+} */
+
+footer {
+  background: black;
+  position: relative;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+.iconLike {
+  color: red;
+}
+
+@media all and (max-width: 1300px) {
+  #prodCard {
+    display: flex;
+    flex-direction: column;
+  }
+  .prodCard {
+    display: flex;
+    flex-direction: column;
+  }
+}
